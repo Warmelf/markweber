@@ -218,56 +218,6 @@ header {
     width: 90%;
 }
 
-/* Анимация круга
-
-.wrapper {
-    width: 100px; 
-    height: 100px;
-    position: absolute; 
-    clip: rect(0px, 100px, 100px, 100px); 
-  }
-
-  .circle {
-    width: 39px;
-    height: 39px;
-    border: 1px solid #fff;
-    border-radius: 50px;
-    position: absolute;
-    clip: rect(0px, 30px, 100px, 0px);
-  }
-
-  div[data-anim~=base] {
-    -webkit-animation-iteration-count: 40;  
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-timing-function:linear; 
-  }
-  
-  .wrapper[data-anim~=wrapper] {
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-delay: 0s; 
-    -webkit-animation-name: close-wrapper; 
-  }
-  
-  .circle[data-anim~=left] {
-    -webkit-animation-duration: 6s;
-    -webkit-animation-name: left-spin;
-  }
-  
-  @-webkit-keyframes left-spin {
-    from {
-      -webkit-transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-    }
-  }
-
-  @-webkit-keyframes close-wrapper {
-    to {
-      clip: rect(auto, auto, auto, auto);
-    }
-  } */
-
 .tagline-block__container {
     width: 41%;
     margin-right: 40px;
